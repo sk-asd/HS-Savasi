@@ -27,6 +27,7 @@ public void OnPluginStart()
 	HookEvent("round_start", ra);
 	HookEvent("player_death", oldumq);
 	Test = CreateConVar("sm_hsmenu_flag", "f", "Komutçu harici kullanabilecek kişilerin yetki harfi");
+	AutoExecConfig(true, "HS-Savas", "phiso");
 }
 public Action HSMenu(int client, int args)
 {
